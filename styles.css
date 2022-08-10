@@ -1,0 +1,88 @@
+.container {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    background-color: #5a4636;
+    color: whitesmoke;
+}
+
+h1{
+  font-size: 48px;
+  font-weight: 200;
+
+  text-align: center;
+  line-height: 59px;
+}
+
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 270px;
+    width: 270px;
+
+    border: 2px solid;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+#buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 187px;
+}
+
+.time {
+    font-family: "Roboto Mono", monospace;
+    font-weight: 300;
+    font-size: 48px;
+}
+button {
+    cursor: pointer;
+    background: transparent;
+    padding: 0;
+    border: none;
+    margin: 0;
+    outline: none;
+  }
+  
+  #playButton {
+    display: block;
+    height: 60px;
+    width: 60px;
+    padding-right: 100px;
+  }
+  
+  #pauseButton {
+    display: none;
+    height: 60px;
+    width: 60px;
+    padding-right: 100px;
+  }
+
+  #resetButton {
+    height: 60px; 
+    width: 60px; 
+    padding-left: 100px;
+    display: block;
+  }
+
+  #lapButton {
+    height: 70px; 
+    width: 70px;
+    display: none;
+    padding-left: 100px;
+  }
+
+  ol {
+    font-size: 30px;
+    font-family: "Roboto Mono", monospace;
+  }
+  li{
+    padding-bottom: 5px;
+  }
+ 
